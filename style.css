@@ -1,0 +1,242 @@
+.ak-about-section-img{
+    max-height: 600px;
+}
+
+.ak-about-section-img img{
+    width: 100%;
+    object-fit: cover !important;
+    height: 100%;
+    border-radius: 5px;
+}
+.ak-about-section-right-details h5{
+    color: rgb(143, 144, 144);
+    font-family: 'Montserrat', sans-serif;
+}
+.ak-about-section-right-details-span span{
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ak-about-section-skills{
+    margin-bottom: 10px ;
+    text-align: center;
+}
+.ak-about-section-skills-box{
+    padding: 10px 30px;
+    width: auto;
+    border-radius: 100px;
+    background-color: rgb(246, 220, 180);
+    margin-right: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 2rem;
+    font-family: Helvetica, sans-serif;
+}
+.ak-skill-about-hr hr{
+    border-top: 3px solid #000000;
+    opacity: 100;
+}
+.ak-about-section-description{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: Helvetica;
+}
+
+
+
+.ak-project-section h5, h6, span{
+    font-family: 'Montserrat', sans-serif;
+}
+.ak-project-section span{
+    font-weight: 200!important;
+}
+
+.ak-project-section{
+    color: #f1f1f1;
+    background-color: #1f2834;
+    padding: 80px 0px;
+}
+.ak-project-section hr{
+    border-top: 3px solid #e4e0e0;
+}
+.ak-project-section-text-area-1 h5,
+.ak-project-section-text-area-2 h5{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ak-project-section-text-area-1 h6{
+    font-weight: 200;
+}
+.ak-project-section-text-area-span{
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 25px;
+}
+.ak-project-section-text-2{
+    text-align: right;
+}
+.ak-project-section-image-2{
+    max-height: 280px !important;
+}
+.ak-project-section-image-2 img{
+    width: 100%;
+    object-fit: cover !important;
+    height: 100%;
+    border-radius: 5px;
+}
+.ak-project-big-image{
+    max-height: 600px;
+}
+.ak-project-big-image img{
+    width: 100%;
+    object-fit: cover !important;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.ak-floral-design-div{
+    background-color: #1f2834;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.ak-floral-img-div{
+    max-height: 300px;
+}
+.ak-floral-img-div img{
+    width: 100%;
+    object-fit: cover !important;
+    height: 100%;
+}
+.ak-floral-img1-col1{
+   border-top-right-radius: 200px;
+   border-bottom-left-radius:200px;
+}
+.ak-floral-img2-col2{
+    border-top-left-radius: 200px;
+   border-bottom-right-radius: 200px;
+}
+.ak-floral-img3-col1{
+    border-bottom-right-radius: 200px;
+   border-top-left-radius: 200px;
+}
+.ak-floral-img4-col2{
+    border-bottom-left-radius: 200px;
+   border-top-right-radius: 200px;
+}
+.ak-project-section h5, h6, span{
+    font-family: 'Montserrat', sans-serif; 
+}
+.ak-floral-design-div-text h1{
+    font-size: 4rem !important;
+    font-weight: bold;
+}
+.ak-floral-design-div-text span{
+    font-size: 1.15rem;
+}
+
+.ak-floral-design-div-links-box{
+    padding: 10px;
+    padding-top: 13px;
+    width: auto;
+    background-color: #172e4be7;
+    border-radius: 4px;
+    color: #f1f1f1;
+}
+.ak-floral-design-div-links-box-icon{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 10px;
+} 
+.ak-floral-design-div-links-box h6{
+    font-size: 1.3rem !important;
+}
+
+
+
+.ak-faq-heading{
+    font-weight: bold;
+}
+
+.ak-faq-text{
+    background-color: #1f2834;
+    border-radius: 5px;
+    padding: 30px;
+    color: #f1f1f1;
+}
+.ak-faq-text p{
+    font-weight: lighter;
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .ak-about-section-right-details{
+        margin-top: 30px;
+    }
+    .ak-about-section-skills-box span{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .ak-floral-img1-col1{
+        border-top-right-radius: 150px;
+        border-bottom-left-radius:150px;
+     }
+     .ak-floral-img2-col2{
+         border-top-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+     }
+     .ak-floral-img3-col1{
+         border-bottom-right-radius: 150px;
+        border-top-left-radius: 150px;
+     }
+     .ak-floral-img4-col2{
+         border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
+     }
+    .ak-floral-img3-col1{
+        transform: rotateY(180deg);
+    }
+    .ak-floral-img4-col2{
+        transform: rotateY(180deg);
+    }
+    .ak-floral-design-div-links-box{
+        margin-top: 40px;
+    }
+    .ak-b-2{
+        margin-top: 10px !important;
+    }
+    .ak-project-section-text-area-1:nth-of-type(2){
+        margin-top: 50px;
+    }
+    .ak-project-section-text-2{
+        margin: 100px 0px 20px 0px!important;
+    }
+    .ak-project-section-text-3{
+        margin: 10px 0px 100px 0px!important;
+    }
+    .ak-floral-design-div-text h1{
+        font-size: 3rem !important;
+        margin: 50px 0px 30px 0px !important;
+    }
+    .ak-faq-text-box-body-div{
+        margin: 0px !important;
+    }
+}
